@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F4C3A"/>
+      <stop offset="100%" stop-color="#083024"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded App Background -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle circular glow -->
+  <circle cx="256" cy="256" r="180" fill="#ffffff" opacity="0.04"/>
+  
+  <!-- Stylized Roof -->
+  <path d="M256 96 L416 232 L384 256 L256 148 L128 256 L96 232 Z" fill="url(#goldGrad)"/>
+  
+  <!-- House Body -->
+  <path d="M148 240 L364 240 L364 396 C364 407 355 416 344 416 L168 416 C157 416 148 407 148 396 Z" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- House Door / Heart / Kwanza symbol -->
+  <rect x="220" y="304" width="72" height="112" rx="12" fill="#0F4C3A"/>
+  
+  <!-- Gold Door Knob / Accent -->
+  <circle cx="276" cy="360" r="6" fill="#FBBF24"/>
+  
+  <!-- Window left -->
+  <rect x="176" y="272" width="44" height="44" rx="8" fill="#0F4C3A" opacity="0.85"/>
+  <!-- Window right -->
+  <rect x="292" y="272" width="44" height="44" rx="8" fill="#0F4C3A" opacity="0.85"/>
+  
+  <!-- Chimney -->
+  <rect x="330" y="140" width="36" height="60" rx="4" fill="url(#goldGrad)"/>
+  
+  <!-- "AO" Badge -->
+  <g transform="translate(256, 440)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="#D97706"/>
+    <text x="0" y="5" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">ANGOLA</text>
+  </g>
+</svg>

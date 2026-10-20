@@ -1,0 +1,6 @@
+{
+  "name": "Minha Casa AO",
+  "description": "Gestão doméstica completa para Angola: Finanças em Kwanzas (Kz), compras, despensa, contas de luz e água, tarefas e refeições.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
